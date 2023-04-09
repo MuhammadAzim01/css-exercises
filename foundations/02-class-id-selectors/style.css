@@ -1,0 +1,20 @@
+.odd-class {
+    background-color: #ff9abb;
+    font-family: "Verdana" "DejaVu Sans" sans-serif;
+}
+
+.odd-class.cooler {
+    font-size: 24px;
+}
+
+#number-2 {
+    color: rgb(41, 41, 236);
+    font-size: 36px;
+}
+
+#number-1 {
+    background-color: #43e486;
+    font-size: 24px;
+    font-weight: bold;
+}
+
