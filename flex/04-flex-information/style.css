@@ -24,3 +24,31 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* simplest to center the information title.
+.title {
+  text-align: center;
+} */
+
+/* Using Flexbox */
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+
+.center-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blackberry,
+.chilli,
+.pepper,
+.saffron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
