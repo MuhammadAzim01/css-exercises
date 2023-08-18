@@ -8,6 +8,9 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 15px;
 }
 
 .footer {
@@ -26,4 +29,49 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+/*Solution*/
+body {
+  display: flex;
+  flex-direction: column;
+} 
+ul {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ 
+.card {
+  flex: 1;
+  flex-basis: auto;
+  width: 200px;
+  padding: 32px;
+}
+
+.middle {
+  flex: 1;
+  display: flex;  
+}
+
+.main-section {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+} 
+
+.header,
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+
+.footer {
+  justify-content: center;
 }
